@@ -6,7 +6,7 @@ The only file this project contains is the PopularLanguages.txt file, which cont
 
 The input file follows this structure
 
-Table
-Student Names (seperated by commas)
-Languages and Ranks (Language Rank) (seperatred by commas)
+Table \n
+Student Names (seperated by commas) \n
+Languages and Ranks (Language Rank) (seperatred by commas) \n
 ...
