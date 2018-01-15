@@ -72,8 +72,8 @@ public class ClassSurvey {
         try{
             FileWriter fw = new FileWriter("PopularityOfLanguages.txt");
             for(int i = 0; i < langs.size(); i++) {
-                fw.write(langs.get(i).getName() + "\n");
-                fw.write(langs.get(i).getVotes() + "\n");
+                fw.write(langs.get(i).getName() + String.format("%n"));
+                fw.write(langs.get(i).getVotes() + String.format("%n"));
             }
             fw.close();
         }catch(Exception e){ System.out.println("There was an error in writing to the vote file");}
@@ -84,7 +84,7 @@ public class ClassSurvey {
         try {
             FileWriter fw = new FileWriter("Students.txt");
             for (int j = 0; j < panel.size(); j++) {
-                fw.write(panel.get(j) + "\n");
+                fw.write(panel.get(j) + String.format("%n"));
             }
             fw.close();
         } catch (Exception e) {

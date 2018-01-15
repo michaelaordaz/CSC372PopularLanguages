@@ -23,7 +23,7 @@ public class Language {
         int index = 0;
         String castVotes = "";
         for (Rank rank : Rank.values()) {
-            castVotes = castVotes + "Number of " + rank + " place votes: " + votes[index] + "\n";
+            castVotes = castVotes + "Number of " + rank + " place votes: " + votes[index] + String.format("%n");
             index++;
         }
         return castVotes;
