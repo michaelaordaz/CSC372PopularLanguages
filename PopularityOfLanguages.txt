@@ -1,0 +1,63 @@
+Java
+Number of First place votes: 13
+Number of Second place votes: 2
+Number of Third place votes: 0
+Number of Fourth place votes: 0
+Number of Fifth place votes: 0
+
+C
+Number of First place votes: 0
+Number of Second place votes: 5
+Number of Third place votes: 3
+Number of Fourth place votes: 0
+Number of Fifth place votes: 3
+
+Python
+Number of First place votes: 0
+Number of Second place votes: 6
+Number of Third place votes: 5
+Number of Fourth place votes: 3
+Number of Fifth place votes: 1
+
+Javascript
+Number of First place votes: 2
+Number of Second place votes: 2
+Number of Third place votes: 4
+Number of Fourth place votes: 4
+Number of Fifth place votes: 2
+
+Ruby
+Number of First place votes: 0
+Number of Second place votes: 0
+Number of Third place votes: 0
+Number of Fourth place votes: 3
+Number of Fifth place votes: 3
+
+C++
+Number of First place votes: 0
+Number of Second place votes: 0
+Number of Third place votes: 3
+Number of Fourth place votes: 2
+Number of Fifth place votes: 2
+
+PHP
+Number of First place votes: 0
+Number of Second place votes: 0
+Number of Third place votes: 0
+Number of Fourth place votes: 1
+Number of Fifth place votes: 4
+
+C#
+Number of First place votes: 0
+Number of Second place votes: 0
+Number of Third place votes: 0
+Number of Fourth place votes: 1
+Number of Fifth place votes: 0
+
+SQL
+Number of First place votes: 0
+Number of Second place votes: 0
+Number of Third place votes: 0
+Number of Fourth place votes: 1
+Number of Fifth place votes: 0
+
