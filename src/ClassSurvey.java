@@ -69,10 +69,12 @@ public class ClassSurvey {
 
     //This method creates the file that contains all the votes
     private static void createVoteFile(ArrayList<Language> langs){
+        String frmtStr = "%-20s";
         try{
             FileWriter fw = new FileWriter("PopularityOfLanguages.txt");
+            fw.write(langs.get(0).getCategories() + String.format("%n"));
             for(int i = 0; i < langs.size(); i++) {
-                fw.write(langs.get(i).getName() + String.format("%n"));
+                fw.write(String.format(frmtStr, langs.get(i).getName()));
                 fw.write(langs.get(i).getVotes() + String.format("%n"));
             }
             fw.close();

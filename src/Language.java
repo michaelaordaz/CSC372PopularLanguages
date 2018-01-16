@@ -22,11 +22,22 @@ public class Language {
     public String getVotes() {
         int index = 0;
         String castVotes = "";
+        String formatStr = "%-15s";
         for (Rank rank : Rank.values()) {
-            castVotes = castVotes + "Number of " + rank + " place votes: " + votes[index] + String.format("%n");
+            castVotes = castVotes + String.format(formatStr, votes[index]);
             index++;
         }
         return castVotes;
+    }
+
+    public String getCategories() {
+        int index = 0;
+        String formatStr = "%-15s";
+        String categories = String.format("%-20s", "Categories");
+        for (Rank rank : Rank.values()) {
+            categories = categories + String.format(formatStr, rank);
+        }
+        return categories;
     }
 
     public int[] getVoteArray() {
